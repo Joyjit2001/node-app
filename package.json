@@ -1,0 +1,27 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Using this repository for sample github project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joyjit2001/node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joyjit2001/node-app/issues"
+  },
+  "homepage": "https://github.com/Joyjit2001/node-app#readme",
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
