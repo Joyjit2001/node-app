@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ezderman@NODE.SERVER.IP <<EOF
+ssh ec2-user@54.183.74.186 -i ./keys.pem -y
  cd ~/node-app
  git pull
  npm install — production
